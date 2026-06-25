@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Malaysia's best destinations, tropical islands, vibrant cities, lush rainforests and UNESCO heritage towns. Discover where to go with Jelajah Malaysia.">
+  <title>Destinations · Jelajah Malaysia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav class="nav">
+  <a href="index.html" class="nav__brand"><span class="logo-mark"><img src="images/logo.svg" alt=""></span> Jelajah Malaysia</a>
+  <ul class="nav__links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="destinations.html" class="active">Destinations</a></li>
+    <li><a href="packages.html">Packages</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li class="nav__cta"><a href="contact.html" class="btn btn-primary">Book Now</a></li>
+  </ul>
+  <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+
+<header class="page-hero" style="background-image:url('images/hero-destinations.jpg')">
+  <div class="container page-hero__inner">
+    <h1>Destinations</h1>
+    <p>From turquoise islands to misty highlands, find your corner of Malaysia.</p>
+    <div class="breadcrumb"><a href="index.html">Home</a> / Destinations</div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Where to go</span>
+      <h2>One Country, Endless Journeys</h2>
+      <p class="lead">Malaysia packs castaway islands, glittering skylines, ancient rainforests and centuries-old trading towns into one warm, welcoming peninsula and the wild island of Borneo. Filter below to find the experience that calls you.</p>
+    </div>
+
+    <div class="chips reveal">
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="islands">Islands</button>
+      <button class="chip" data-filter="cities">Cities</button>
+      <button class="chip" data-filter="nature">Nature</button>
+      <button class="chip" data-filter="heritage">Heritage</button>
+    </div>
+
+    <div class="grid grid-3">
+      <article class="card reveal" data-cat="islands">
+        <div class="card__media"><span class="card__tag">Kedah</span><img src="images/dest-langkawi.jpg" alt="Aerial view of Langkawi's emerald islands and turquoise sea"></div>
+        <div class="card__body">
+          <div class="card__meta"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Kedah</div>
+          <h3>Langkawi</h3>
+          <p>An archipelago of 99 duty-free islands ringed by white-sand beaches, mangrove rivers and the famous SkyCab cable car.</p>
+          <div class="card__foot"><span class="price">RM 899 <span>/ pax</span></span><a href="destination-langkawi.html" class="btn btn-outline">Discover</a></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="islands">
+        <div class="card__media"><span class="card__tag">Terengganu</span><img src="images/dest-redang.jpg" alt="Crystal-clear shallows over coral at Pulau Redang"></div>
+        <div class="card__body">
+          <div class="card__meta"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Terengganu</div>
+          <h3>Pulau Redang</h3>
+          <p>Postcard-perfect snorkelling straight off the beach, with reef sharks, sea turtles and water so clear it glows.</p>
+          <div class="card__foot"><span class="price">RM 1,050 <span>/ pax</span></span><a href="contact.html" class="btn btn-outline">Discover</a></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="islands">
+        <div class="card__media"><span class="card__tag">Terengganu</span><img src="images/dest-perhentian.jpg" alt="Twin islands and longtail boats at the Perhentian Islands"></div>
+        <div class="card__body">
+          <div class="card__meta"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Terengganu</div>
+          <h3>Perhentian Islands</h3>
+          <p>Laid-back backpacker bliss, hammocks, beach barbecues and some of the cheapest scuba diving in Southeast Asia.</p>
+          <div class="card__foot"><span class="price">RM 780 <span>/ pax</span></span><a href="contact.html" class="btn btn-outline">Discover</a></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="cities">
+        <div class="card__media"><span class="card__tag">Wilayah Persekutuan</span><img src="images/dest-kl.jpg" alt="Petronas Twin Towers lit up against the Kuala Lumpur skyline"></div>
+        <div class="card__body">
+          <div class="card__meta"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Kuala Lumpur</div>
+          <h3>Kuala Lumpur</h3>
+          <p>The dazzling capital where the Petronas Twin Towers, Batu Caves, night markets and rooftop bars never sleep.</p>
+          <div class="card__foot"><span class="price">RM 650 <span>/ pax</span></span><a href="contact.html" class="btn btn-outline">Discover</a></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="heritage">
+        <div class="card__media"><span class="card__tag">Pulau Pinang</span><img src="images/dest-penang.jpg" alt="Heritage shophouses and street art in George Town, Penang"></div>
+        <div class="card__body">
+          <div class="card__meta"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Penang</div>
+          <h3>George Town, Penang</h3>
+          <p>A UNESCO heritage city famed for clan houses, mural-painted lanes and the best street food in the country.</p>
+          <div class="card__foot"><span class="price">RM 720 <span>/ pax</span></span><a href="contact.html" class="btn btn-outline">Discover</a></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="heritage">
+        <div class="card__media"><span class="card__tag">Melaka</span><img src="images/dest-melaka.jpg" alt="The red Stadthuys and Christ Church in historic Melaka"></div>
+        <div class="card__body">
+          <div class="card__meta"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Melaka</div>
+          <h3>Melaka</h3>
+          <p>A 600-year-old trading port layered with Portuguese, Dutch and Peranakan history along the Melaka River.</p>
+          <div class="card__foot"><span class="price">RM 690 <span>/ pax</span></span><a href="contact.html" class="btn btn-outline">Discover</a></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="nature">
+        <div class="card__media"><span class="card__tag">Sabah &amp; Sarawak</span><img src="images/dest-borneo.jpg" alt="Mist over the dense rainforest canopy of Borneo"></div>
+        <div class="card__body">
+          <div class="card__meta"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Borneo</div>
+          <h3>Borneo</h3>
+          <p>One of Earth's oldest rainforests, home to wild orangutans, Mount Kinabalu and the legendary diving at Sipadan.</p>
+          <div class="card__foot"><span class="price">RM 1,490 <span>/ pax</span></span><a href="destination-borneo.html" class="btn btn-outline">Discover</a></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="nature">
+        <div class="card__media"><span class="card__tag">Sabah</span><img src="images/dest-sabah.jpg" alt="Mount Kinabalu rising above the Sabah countryside at sunrise"></div>
+        <div class="card__body">
+          <div class="card__meta"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Sabah</div>
+          <h3>Sabah</h3>
+          <p>The Land Below the Wind, crowned by 4,095 m Mount Kinabalu and fringed by island reefs off Kota Kinabalu.</p>
+          <div class="card__foot"><span class="price">RM 1,320 <span>/ pax</span></span><a href="destination-borneo.html" class="btn btn-outline">Discover</a></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="nature">
+        <div class="card__media"><span class="card__tag">Pahang</span><img src="images/dest-cameron.jpg" alt="Rolling green tea plantations in the Cameron Highlands"></div>
+        <div class="card__body">
+          <div class="card__meta"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Pahang</div>
+          <h3>Cameron Highlands</h3>
+          <p>Cool mountain air, endless tea plantations, strawberry farms and mossy cloud forest trails to wander.</p>
+          <div class="card__foot"><span class="price">RM 740 <span>/ pax</span></span><a href="contact.html" class="btn btn-outline">Discover</a></div>
+        </div>
+      </article>
+
+      <article class="card reveal" data-cat="nature">
+        <div class="card__media"><span class="card__tag">Terengganu</span><img src="images/dest-kenyir.jpg" alt="Forested islets scattered across the vast Kenyir Lake"></div>
+        <div class="card__body">
+          <div class="card__meta"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Terengganu</div>
+          <h3>Kenyir Lake</h3>
+          <p>Southeast Asia's largest man-made lake, 340 islands, hidden waterfalls and houseboat fishing escapes.</p>
+          <div class="card__foot"><span class="price">RM 820 <span>/ pax</span></span><a href="contact.html" class="btn btn-outline">Discover</a></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-band reveal">
+      <h2>Can't decide where to begin?</h2>
+      <p>Tell us your dates and what you love: beaches, jungle, food or culture, and our local team will craft the perfect Malaysian itinerary just for you.</p>
+      <a href="contact.html" class="btn btn-primary">Start Planning</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__brand"><span class="logo-mark"><img src="images/logo.svg" alt=""></span> Jelajah Malaysia</a>
+        <p>Your gateway to the soul of Asia, with curated journeys across Malaysia's islands, cities, rainforests and heritage towns.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V8c0-1.1.5-2 2-2h2V2.1C18.7 2 17.3 2 16 2c-3 0-5 1.8-5 5.2V10H7v4h4v8h2z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-1-.3-1.6-.6-2.9-1.3-4.7-4.2-4.9-4.4-.1-.2-1.1-1.5-1.1-2.8s.7-2 .9-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.1.3.7 1.1 1.4 1.8.9.8 1.7 1 2 1.2.2.1.4.1.5-.1l.6-.7c.2-.3.4-.2.6-.1l1.8.9c.3.1.4.2.5.3.1.2.1.6-.1 1.2z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul class="footer__links">
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="packages.html">Tour Packages</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="blog.html">Travel Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul class="footer__links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Newsletter</h4>
+        <p style="font-size:.92rem;color:#94a3b8;">Get travel tips & exclusive deals in your inbox.</p>
+        <form class="news-form" onsubmit="event.preventDefault(); this.reset();">
+          <input type="email" placeholder="Your email" aria-label="Email" required>
+          <button class="btn btn-ocean" type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> Jelajah Malaysia. All rights reserved.</span>
+      <span>Designed &amp; built with care · HTML &amp; CSS</span>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
