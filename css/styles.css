@@ -135,6 +135,7 @@ p  { margin-bottom: 1rem; }
 .hero__stats { display: flex; gap: 2.5rem; margin-top: 3rem; flex-wrap: wrap; }
 .hero__stat strong { display: block; font-family: var(--font-head); font-size: 2rem; color: #fff; }
 .hero__stat span { font-size: .9rem; color: rgba(255,255,255,.8); }
+.hero__stat strong span { font-size: inherit; color: var(--gold); }
 
 /* Page banner (sub-pages) */
 .page-hero {
