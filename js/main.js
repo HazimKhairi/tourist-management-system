@@ -1,7 +1,6 @@
 (function () {
   'use strict';
 
-  /* ---------- Sticky navbar shadow on scroll ---------- */
   var nav = document.querySelector('.nav');
   function onScroll() {
     if (!nav) return;
@@ -10,7 +9,6 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
-  /* ---------- Mobile menu toggle ---------- */
   var toggle = document.querySelector('.nav__toggle');
   var links = document.querySelector('.nav__links');
   if (toggle && links) {
@@ -29,7 +27,6 @@
     });
   }
 
-  /* ---------- Scroll reveal ---------- */
   var reveals = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window && reveals.length) {
     var io = new IntersectionObserver(function (entries) {
@@ -42,7 +39,6 @@
     reveals.forEach(function (el) { el.classList.add('in'); });
   }
 
-  /* ---------- FAQ accordion ---------- */
   document.querySelectorAll('.faq__q').forEach(function (q) {
     q.addEventListener('click', function () {
       var item = q.closest('.faq__item');
@@ -53,7 +49,6 @@
     });
   });
 
-  /* ---------- Gallery filter (chips) ---------- */
   var filterChips = document.querySelectorAll('[data-filter]');
   if (filterChips.length) {
     filterChips.forEach(function (chip) {
@@ -69,7 +64,6 @@
     });
   }
 
-  /* ---------- Contact form validation ---------- */
   var form = document.querySelector('#contact-form');
   if (form) {
     var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
@@ -115,12 +109,9 @@
       if (note) { note.classList.add('success'); note.textContent = 'Terima kasih! Your message has been received — our team will reply within 24 hours.'; }
       form.reset();
       if (note) note.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      /* To make this send real emails, the client can point the form at a free
-         endpoint (e.g. Formspree / Web3Forms) — see README. */
     });
   }
 
-  /* ---------- Footer year ---------- */
   var yr = document.querySelector('[data-year]');
   if (yr) yr.textContent = new Date().getFullYear();
 
