@@ -1,7 +1,3 @@
-/* =========================================================================
-   Jelajah Malaysia — shared interactions
-   Vanilla JS, no dependencies. Works on every page.
-   ========================================================================= */
 (function () {
   'use strict';
 
