@@ -17,7 +17,6 @@
       toggle.classList.toggle('open', open);
       toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
-    // close on link click (mobile)
     links.querySelectorAll('a').forEach(function (a) {
       a.addEventListener('click', function () {
         links.classList.remove('open');
